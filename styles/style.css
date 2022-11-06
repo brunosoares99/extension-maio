@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+section h1 {
+  color: #8048F9;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul button {
+  cursor: pointer;
+  color: #F0E9FF;
+  padding: .75rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #9268ee;
+  margin: .5rem .25rem;
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+
+ul button:hover {
+  background-color: #8048F9;
+}
+
+ul li {
+  white-space: nowrap;
+}

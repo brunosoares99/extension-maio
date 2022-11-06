@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "InfoProducts",
+  "description": "Get Info From Products",
+  "version": "0.1",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://new-ella-demo.myshopify.com/*"],
+      "css": ["styles/style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
